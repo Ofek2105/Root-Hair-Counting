@@ -359,13 +359,15 @@ def process_and_plot_influence(image_folder, num_images=10, thresholds=[0.65, 0.
         plt.subplots_adjust(top=0.85)
         plt.show()
 
+
+
 if __name__ == '__main__':
-    image_paths = [r'../TEST DATA/base/arb_lr.png',
-                   r'../TEST DATA/base/bell_lr.jpg']
+    image_paths = [r'TEST DATA/base/arb_lr.png',
+                   r'TEST DATA/base/bell_lr.jpg']
 
     # image_paths = [r'../TEST DATA/ARBIDIOPSIS/arb_sr_x2.png']
-    image_paths = [r'../results/type_2/zoomIn.png']
-    image_paths = [r'../results/type_1/SR_P1_X4.png']
+    # image_paths = [r'results/type_2/zoomIn.png']
+    # image_paths = [r'results/type_1/SR_P1_X4.png']
 
     # image_paths = [r'../TEST DATA/BELL PEPEER/SR_P1_X2.png']
     n_hairs = get_image_hair_count(image_paths[0], th_algo="Our", plot_report=True)
