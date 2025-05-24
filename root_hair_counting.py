@@ -360,7 +360,6 @@ def process_and_plot_influence(image_folder, num_images=10, thresholds=[0.65, 0.
         plt.show()
 
 
-
 if __name__ == '__main__':
     image_paths = [r'TEST DATA/base/arb_lr.png',
                    r'TEST DATA/base/bell_lr.jpg']
