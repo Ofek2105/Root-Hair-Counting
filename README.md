@@ -2,9 +2,8 @@
 
 ![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)
 
-This repository contains the code and resources for the paper: **A Novel Approach for Plant Root-Hair Counting and Its Improvement via Image Super-Resolution**.
-
-**[Link to the Published Paper (Will be added upon full publication)]**
+This repository contains the code and resources for the paper:
+**[A Novel Approach for Plant Root-Hair Counting and Its Improvement via Image Super-Resolution](https://ieeexplore.ieee.org/document/11030939)**.
 
 
 ## Overview
